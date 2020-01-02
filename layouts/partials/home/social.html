@@ -163,3 +163,6 @@
 {{ with .Site.Params.Social.Email}}
     <a href="mailto:{{.}}" rel="me noopener noreffer"><i class="far fa-envelope" target="_blank fa-fw"></i></a>
 {{ end }}
+{{ with .Site.Params.Social.Phone}}
+    <a href="tel:{{.}}" rel="me noopener noreffer"><i class="fa fa-phone fa-fw" target="_blank fa-fw"></i></a>
+{{ end }}
